@@ -11,7 +11,7 @@ public class exercicio_6 {
 		 
 		 Scanner input = new Scanner(System.in);
 		 System.out.println("Digite o nome do Colaborador:");
-		 nomeColaborador = input.next();
+		 nomeColaborador = input.nextLine();
 		 System.out.println("\nDigite o código do Cargo:");
 		 cod = input.nextInt();
 		 System.out.println("\nDigite o salário:");
@@ -20,7 +20,7 @@ public class exercicio_6 {
 		 switch(cod) {
 		 case 1:
 			 cargo ="Gerente";
-			 reajuste = 0.10;
+			 reajuste= 0.10;
 			 break;
 		 case 2:
 			 cargo ="Vendedor";
@@ -59,4 +59,3 @@ public class exercicio_6 {
 	 } 
 	
 }
-
